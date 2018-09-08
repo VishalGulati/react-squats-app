@@ -1,0 +1,29 @@
+
+.app-navbar-container .navbar {
+    width: 100%;
+    overflow: auto;
+    padding-left: 60px;
+  }
+  
+  .app-navbar-container a {
+    float: left !important;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .app-navbar-container a.active {
+      color: rgb(173, 96, 23);
+    border-bottom: 5px solid rgb(12, 112, 87);
+  }
+  
+  .app-navbar-container a:hover {
+    color: rgb(160, 97, 185);
+  }
+  
+  @media screen and (max-width: 500px) {
+    .app-navbar-container a {
+      float: none;
+      display: block;
+    }
+  }

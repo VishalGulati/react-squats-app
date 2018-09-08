@@ -1,0 +1,27 @@
+.section-title {
+    text-align: left;
+    padding: 10px;
+}
+
+.post-image {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.post {
+    margin: 10px 0;
+    border: 1px solid rgb(199, 196, 196);
+}
+
+.post-line2 {
+    clear: both;
+}

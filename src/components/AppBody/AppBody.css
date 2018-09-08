@@ -1,0 +1,6 @@
+.left-panel, .right-panel{
+    border: 1px solid rgb(224, 221, 221);
+    background: white;
+    padding:0;
+    margin: 10px;
+}

@@ -1,0 +1,40 @@
+.section-title {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.user-image {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.user {
+    margin: 10px 0;
+    border: 1px solid rgb(199, 196, 196);
+}
+
+.user-line2 {
+    clear: both;
+}
+
+.links {
+    color: blue;
+    margin-right: 5px;
+}
+
+.main-link {
+    font-size: 18px;
+}
+
+.left-panel-header {
+    margin: 15px 0;
+}
