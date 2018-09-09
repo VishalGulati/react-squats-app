@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './AppBody.css';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect  } from 'react-router-dom';
 import Home from './Home/Home';
 import Notifications from './Notifications/Notifications';
 import Discover from './Discover/Discover';
@@ -16,7 +16,8 @@ class AppBody extends Component {
                 </div>
                 <div className="col-sm-7 right-panel">
                     <Switch>
-                        <Route exact path='/' component={Home} />
+                        <Route exact path='/' render={() => (<Redirect to="/react-squats-app" />)} />
+                        <Route path='/react-squats-app' component={Home} />
                         <Route path='/notifications' component={Notifications} />
                         <Route path='/discover' component={Discover} />
                         <Route path='/me' component={Me} />
